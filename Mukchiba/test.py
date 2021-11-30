@@ -1,0 +1,3 @@
+result = ''
+
+print(bool(result))
