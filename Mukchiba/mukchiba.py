@@ -64,7 +64,7 @@ class Mukchiba(RockScissorsPaper):
     def textGame(self):
         while not self.finished():
             while not self.rspFinished():
-                print('computer:', self.getComputer()) # test
+                # print('computer:', self.getComputer()) # test
                 self.setUser(input('user: '))
                 print('computer:', self.getComputer())
                 result = self.rockScissorsPaper()
